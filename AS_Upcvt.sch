@@ -12,6 +12,7 @@ LIBS:rfcom
 LIBS:silabs
 LIBS:switches
 LIBS:transistors
+LIBS:tuf-2lhsm
 LIBS:AS_Upcvt-cache
 EELAYER 25 0
 EELAYER END
@@ -254,10 +255,10 @@ Wire Wire Line
 	2750 2000 2750 2050
 Wire Wire Line
 	3250 3350 3250 3400
-Text Notes 500  1750 0    60   ~ 0
-in 1-149 MHz
+Text Notes 1150 1400 0    60   ~ 0
+Signal in \n1-149 MHz
 Text Notes 3050 3950 0    60   ~ 0
-LPF 700 MHz\nOut 779 – 928 MHz
+LPF 700 MHz\nOut 779 – 928 MHz\nTO Texas S.A.
 $Comp
 L GND #PWR7
 U 1 1 5899991D
@@ -459,7 +460,7 @@ L Transformer_1P_1S T2
 U 1 1 5899BF83
 P 4100 1500
 F 0 "T2" H 4100 1750 50  0000 C CNN
-F 1 "FE-735M" H 4100 1200 50  0000 C CNN
+F 1 "302HXPK-1341D1" H 4100 1200 50  0000 C CNN
 F 2 "" H 4100 1500 50  0001 C CNN
 F 3 "" H 4100 1500 50  0001 C CNN
 	1    4100 1500
@@ -495,6 +496,12 @@ F 3 "" H 4900 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 1900 4900 1950
-Text Notes 5200 2050 1    60   ~ 0
-OL In \n779 MHz
+Text Notes 5500 1850 2    60   ~ 0
+OL Input\n779 MHz
+Text Notes 4800 1350 0    60   ~ 0
+triple helical filter\ndigikey TK3409-ND
+Text Notes 5600 3750 0    60   ~ 0
+All caps C0G\nAll inductance Wurth wire wound\nall UHF branches with 0603 components
+Text Notes 7150 6850 0    60   ~ 0
+Upconverter for the\nTexas Instrument  sub GHz spectrum analyzer\nMSP-SA430-SUB1GHZ
 $EndSCHEMATC

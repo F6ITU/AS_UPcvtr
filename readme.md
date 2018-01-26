@@ -2,11 +2,11 @@
 
 (Spectrum Analyzer upconverter)
 ------------------
-…is a frequency upconverter dedicated to the T.I. “ <i> sub GHz spectrum analyzer</i>” 
+…is a frequency upconverter for the Texas Instrument“ <i> sub GHz spectrum analyzer</i> MSP-SA430-SUB1GHZ” 
 ------------------
 http://www.ti.com/tool/MSP-SA430-SUB1GHZ
 
-The core component is a CC1101, a full fledge radio receiver on a chip
+The core component is a CC1101, a full fledge MCU with radio receiver on a chip
 This S.A. (without tracking generator) is a rather expensive device -250 USD list price.
 
  It cannot be used outside ISM bands due to the CC1101 limitations: 

@@ -1,4 +1,4 @@
-update=07/02/2017 10:26:36
+update=26/01/2018 09:55:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -42,4 +42,4 @@ LibName10=C:/Users/Marco/Documents/Kicad/share/library/rfcom
 LibName11=C:/Users/Marco/Documents/Kicad/share/library/silabs
 LibName12=C:/Users/Marco/Documents/Kicad/share/library/switches
 LibName13=C:/Users/Marco/Documents/Kicad/share/library/transistors
-LibName14=C:/Users/Marco/Documents/Kicad/libraries/MCL/tuf-2lhsm
+LibName14=C:/Users/Marco/Documents/Kicad/libraries/mixer/tuf-2lhsm
