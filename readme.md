@@ -1,13 +1,12 @@
-
-
-<b> AS_UPcvtr </b>
+#AS_UPcvtr
+(Spectrum Analyzer upconverter)
 
 …is a frequency upconverter dedicated to the T.I. “ <i> sub GHz spectrum analyzer</i>” 
 
 http://www.ti.com/tool/MSP-SA430-SUB1GHZ
 
 The core component is a CC1101, a full fledge radio receiver on a chip
-This S.A. (no tracking generator) is a rather expensive device -250 USD.
+This S.A. (without tracking generator) is a rather expensive device -250 USD list price.
 
  It cannot be used outside ISM bands due to the CC1101 limitations: 
 
@@ -36,5 +35,6 @@ But this choice means a rather high local oscillator (at least 779 MHz) and a mi
 
 The short-wave input is filtered by a 7th order low pass filter, the output by an helical HPF and the OL port by a well-known baseball player on the third base.
 
+An input UHF coax relay will bypass this converter to work on ISM bands
 
 

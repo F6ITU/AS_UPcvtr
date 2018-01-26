@@ -12,7 +12,6 @@ LIBS:rfcom
 LIBS:silabs
 LIBS:switches
 LIBS:transistors
-LIBS:tuf-2lhsm
 LIBS:AS_Upcvt-cache
 EELAYER 25 0
 EELAYER END
@@ -496,4 +495,6 @@ F 3 "" H 4900 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 1900 4900 1950
+Text Notes 5200 2050 1    60   ~ 0
+OL In \n779 MHz
 $EndSCHEMATC
