@@ -1,8 +1,9 @@
-#AS_UPcvtr
+# AS_UPcvtr
+
 (Spectrum Analyzer upconverter)
-
+------------------
 …is a frequency upconverter dedicated to the T.I. “ <i> sub GHz spectrum analyzer</i>” 
-
+------------------
 http://www.ti.com/tool/MSP-SA430-SUB1GHZ
 
 The core component is a CC1101, a full fledge radio receiver on a chip
